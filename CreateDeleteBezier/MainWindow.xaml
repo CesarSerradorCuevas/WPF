@@ -1,0 +1,14 @@
+﻿<Window x:Class="Bezier03.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Bezier03"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid x:Name="GridA" Background="#FFA80000" MouseMove="GridA_MouseMove" MouseLeftButtonDown="GridA_MouseLeftButtonDown" MouseRightButtonDown="GridA_MouseRightButtonDown">
+        <Button Content="Draw Line" HorizontalAlignment="Left" Margin="42,32,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click" Background="White"/>
+        <TextBlock x:Name="TBA" HorizontalAlignment="Left" Margin="42,69.469,0,0" TextWrapping="Wrap" Text="OFF" VerticalAlignment="Top" Width="36.267" Foreground="#FFC500FF"/>
+        <TextBlock x:Name="TBB" HorizontalAlignment="Left" Margin="42,123,0,0" TextWrapping="Wrap" Text="Path Name: " VerticalAlignment="Top" Height="177.96"/>
+    </Grid>
+</Window>
